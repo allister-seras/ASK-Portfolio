@@ -1,13 +1,19 @@
 /* TODO: add stles for portfolio page */
 body {
-    background-color: #4B97AA;
+    background-color: #55A1B4;
 }
+
 a {
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
 }
 
 nav h1 {
@@ -17,7 +23,7 @@ nav h1 {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:flex-end;
   padding: 1%;
   background-color: #6A5B6E;
   color:#ECEED3
@@ -34,4 +40,43 @@ nav a {
   color: #ECEED3;
 }
 
+::content {
+  display: inline-flex;
+  box-sizing: border-box;
+  color: #001011;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+}
 
+.projectSpace {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  margin-inline: 30px;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  border-width: 1px;
+}
+
+.card h3 {
+  font-size: 130%;
+  padding: 20px;
+  background: #6A5B6E;
+  color: #ECEED3;
+}
+
+.card h3 a {
+  color:#ECEED3
+}
+
+.card img {
+  width: 100%;
+}
